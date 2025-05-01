@@ -1,0 +1,1170 @@
+{
+	"data":
+	[
+		{
+			"id": 28,
+			"grammer": "Uncheck the checkbox #{ui-identifier}",
+			"description": "Uncheck the Element with given UI Identifier"
+		},
+		{
+			"id": 32,
+			"grammer": "Verify that the current page title is ${test-data}",
+			"description": "Verify that the current Page has specified Page Title"
+		},
+		{
+			"id": 34,
+			"grammer": "Verify that the current page URL is ${test-data}",
+			"description": "Verify that the current Page has specified url"
+		},
+		{
+			"id": 35,
+			"grammer": "Verify that the current page displays text ${test-data}",
+			"description": "Verify that the current Page displays specified text"
+		},
+		{
+			"id": 36,
+			"grammer": "Verify that the current page displays an element #{ui-identifier}",
+			"description": "Verify that the current Page displays an Element with given UI Identifier"
+		},
+		{
+			"id": 37,
+			"grammer": "Verify that the current page displays an Alert",
+			"description": "Verify that the current Page displays an Alert"
+		},
+		{
+			"id": 38,
+			"grammer": "Verify that the #{ui-identifier} list has some option selected",
+			"description": "Verify that the List with given UI Identifier has some option selected"
+		},
+		{
+			"id": 39,
+			"grammer": "Verify that the #{ui-identifier} list has ${test-data} number of options",
+			"description": "Verify that the List with given UI Identifier has specified number of options"
+		},
+		{
+			"id": 40,
+			"grammer": "Verify that the #{ui-identifier} list has option with value ${test-data} selected",
+			"description": "Verify that the List with given UI Identifier has option with specified value selected"
+		},
+		{
+			"id": 41,
+			"grammer": "Verify that the #{ui-identifier} list has option with text ${test-data} selected",
+			"description": "Verify that the List with given UI Identifier has option with specified text selected"
+		},
+		{
+			"id": 42,
+			"grammer": "Verify that the list #{ui-identifier} allows selection of multiple options",
+			"description": "Verify that the List with given UI Identifier allows selection of multiple options"
+		},
+		{
+			"id": 43,
+			"grammer": "Verify that the element #{ui-identifier} has non-empty value",
+			"description": "Verify that the Element with given UI Identifier has a non-empty value"
+		},
+		{
+			"id": 44,
+			"grammer": "Verify that the element #{ui-identifier} has empty value",
+			"description": "Verify that the Element with given UI Identifier has an empty value"
+		},
+		{
+			"id": 45,
+			"grammer": "Verify that the element #{ui-identifier} has tag name ${test-data}",
+			"description": "Verify that the Element with given UI Identifier has specified Tag Name"
+		},
+		{
+			"id": 46,
+			"grammer": "Verify that the element #{ui-identifier} has class name ${test-data}",
+			"description": "Verify that the Element with given UI Identifier has specified Class Name"
+		},
+		{
+			"id": 47,
+			"grammer": "Verify that the element #{ui-identifier} has value ${test-data} for @{attribute}",
+			"description": "Verify that the Element with given UI Identifier displays specified value for specified attribute"
+		},
+		{
+			"id": 49,
+			"grammer": "Verify that the elements with locator #{ui-identifier} displays text ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays specified text"
+		},
+		{
+			"id": 50,
+			"grammer": "Verify that the element #{ui-identifier} displays ${test-data} for css property name @{attribute}",
+			"description": "Verify that the Element with given UI Identifier displays specified value for specified css property"
+		},
+		{
+			"id": 55,
+			"grammer": "Verify that the URL of current page is ${test-data}",
+			"description": "Verify that the current Page has specified URL"
+		},
+		{
+			"id": 56,
+			"grammer": "Verify that the Alert is not present",
+			"description": "Verify that an Alert is absent"
+		},
+		{
+			"id": 57,
+			"grammer": "Verify that the Alert displays the message ${test-data}",
+			"description": "Verify that Alert displays the specified message"
+		},
+		{
+			"id": 58,
+			"grammer": "Store title of the current page into a variable ${test-data}",
+			"description": "Store Title of the current Page into specified variable"
+		},
+		{
+			"id": 59,
+			"grammer": "Store the value for the attribute @{attribute} of the element #{ui-identifier} into a variable ${test-data}",
+			"description": "Store the Value of specified attribute for the Element with given UI Identifier into specified variable"
+		},
+		{
+			"id": 60,
+			"grammer": "Store the value displayed in the text box #{ui-identifier} field into a variable ${test-data}",
+			"description": "Store the Value displayed in text box with given UI Identifier into a specified variable."
+		},
+		{
+			"id": 61,
+			"grammer": "Store the url of the current page into a variable ${test-data}",
+			"description": "Store the current Page URL into specified variable"
+		},
+		{
+			"id": 63,
+			"grammer": "Store the text of the selected option from #{ui-identifier} list into a variable ${test-data}",
+			"description": "Store the text from selected option in a given List into a specified variable"
+		},
+		{
+			"id": 65,
+			"grammer": "Store the count of options in the #{ui-identifier} list into a variable ${test-data}",
+			"description": "Store the total count of options in a given UI Identifier into a specified variable"
+		},
+		{
+			"id": 66,
+			"grammer": "Store the count of elements identified by locator #{ui-identifier} into a variable ${test-data}",
+			"description": "Store the total count of all Elements located by given UI Identifier into a specified variable"
+		},
+		{
+			"id": 67,
+			"grammer": "Store text from the element #{ui-identifier} into a variable ${test-data}",
+			"description": "Store the text from Element with given UI Identifier into a specified variable."
+		},
+		{
+			"id": 68,
+			"grammer": "Store tag name of the element #{ui-identifier} into a variable ${test-data}",
+			"description": "Store the tag name of the Element with given UI Identifier into a specified variable."
+		},
+		{
+			"id": 70,
+			"grammer": "Verify that the element #{ui-identifier} has value ${test-data}",
+			"description": "Verify that the given UI Identifier field displays Value"
+		},
+		{
+			"id": 71,
+			"grammer": "Verify that the element #{ui-identifier} displays text ${test-data}",
+			"description": "Verify that the given UI Identifier field displays text"
+		},
+		{
+			"id": 77,
+			"grammer": "Select option with label ${test-data} in the radio button group #{ui-identifier}",
+			"description": "Select an option with specified text from radio group with given UI Identifier. Note: If there is only a single radio group, you may also use the NLP statement: \"Check the radio button with text test data\". If the text comes before the radio button, please use the NLP statement: \"Check the radio button with preceding text test data\"."
+		},
+		{
+			"id": 78,
+			"grammer": "Select option using value ${test-data} in the #{ui-identifier} list",
+			"description": "Select an option by value from the list with given UI Identifier"
+		},
+		{
+			"id": 79,
+			"grammer": "Select option by text ${test-data} in the #{ui-identifier} list",
+			"description": "Select an option by displayed text from the list with given UI Identifier"
+		},
+		{
+			"id": 80,
+			"grammer": "Select option by index ${test-data} in the #{ui-identifier} list",
+			"description": "Select an option by specified Index from the list with given UI Identifier Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 84,
+			"grammer": "Right click on the element #{ui-identifier}",
+			"description": "Right click on the Element with given UI Identifier"
+		},
+		{
+			"id": 85,
+			"grammer": "Mouseover the element #{ui-identifier}",
+			"description": "Mouseover the Element with given UI Identifier"
+		},
+		{
+			"id": 87,
+			"grammer": "Switch to the window with title ${test-data}",
+			"description": "Switch to the window with specified PageTitle"
+		},
+		{
+			"id": 88,
+			"grammer": "Switch to the window by index ${test-data}",
+			"description": "Switch to the window with specified Index Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 89,
+			"grammer": "Switch to the parent page",
+			"description": "Navigate to starting Page"
+		},
+		{
+			"id": 90,
+			"grammer": "Switch to the parent frame of the active element",
+			"description": "Switch to the parent frame of currently selected frame"
+		},
+		{
+			"id": 91,
+			"grammer": "Switch to the frame with name ${test-data}",
+			"description": "Switch to the frame with specified name"
+		},
+		{
+			"id": 92,
+			"grammer": "Switch to the frame by index ${test-data}",
+			"description": "Switch to the frame with frame of specified Index. Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 93,
+			"grammer": "Switch to the frame #{ui-identifier}",
+			"description": "Switch to the frame with given UI Identifier"
+		},
+		{
+			"id": 96,
+			"grammer": "Drag the element #{from-ui-identifier} and drop on the element #{to-ui-identifier}",
+			"description": "Drag from first Element with UI Identifier and drop onto second Element with UI Identifier"
+		},
+		{
+			"id": 97,
+			"grammer": "Double click on #{ui-identifier}",
+			"description": "Double click on the Element with given UI Identifier"
+		},
+		{
+			"id": 98,
+			"grammer": "Delete cookie with name ${test-data}",
+			"description": "Delete a cookie with specified name"
+		},
+		{
+			"id": 99,
+			"grammer": "Delete all cookies from the current session",
+			"description": "Delete all cookies from the current browser session"
+		},
+		{
+			"id": 100,
+			"grammer": "Close the window with index ${test-data}",
+			"description": "Close window with specified Index Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 101,
+			"grammer": "Close the window that has title ${test-data}",
+			"description": "Close the window that has specified Title"
+		},
+		{
+			"id": 102,
+			"grammer": "Close the current window",
+			"description": "Close the current window of the Browser"
+		},
+		{
+			"id": 103,
+			"grammer": "Close all windows",
+			"description": "Close all windows of the Browser"
+		},
+		{
+			"id": 107,
+			"grammer": "Click OK button in the alert",
+			"description": "Accept the Alert on current Page"
+		},
+		{
+			"id": 108,
+			"grammer": "Click on Cancel button in the alert",
+			"description": "Dismiss the Alert on Page"
+		},
+		{
+			"id": 109,
+			"grammer": "Click on #{ui-identifier}",
+			"description": "Click Element with given UI Identifier"
+		},
+		{
+			"id": 110,
+			"grammer": "Clear the value displayed in the #{ui-identifier} field",
+			"description": "Clear the Value displayed in given UI Identifier"
+		},
+		{
+			"id": 111,
+			"grammer": "Clear the text displayed in the #{ui-identifier} field",
+			"description": "Clear the text displayed in given UI Identifier"
+		},
+		{
+			"id": 112,
+			"grammer": "Verify that an Alert with text ${test-data} is displayed",
+			"description": "Verify that an Alert with specified text is present"
+		},
+		{
+			"id": 113,
+			"grammer": "Verify that an Alert is displayed",
+			"description": "Verify that the Page contains an Alert"
+		},
+		{
+			"id": 115,
+			"grammer": "Verify that the link #{ui-identifier} opens in a new window or tab",
+			"description": "Verify that the Link with given UI Identifier opens in a new window or tab"
+		},
+		{
+			"id": 328,
+			"grammer": "Click on #{ui-identifier} if visible",
+			"description": "Click Element with given UI Identifier if the Element is visible"
+		},
+		{
+			"id": 540,
+			"grammer": "Select option using value ${test-data} in the list with title @{attribute}",
+			"description": "Select an option by value from the list with specified Title"
+		},
+		{
+			"id": 541,
+			"grammer": "Select option by text ${test-data} in the list with title @{attribute}",
+			"description": "Select an option by displayed text from the list with specified Title"
+		},
+		{
+			"id": 542,
+			"grammer": "Select option by index ${test-data} in the list with title @{attribute}",
+			"description": "Select an option by specified Index from the list with specified Title Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 559,
+			"grammer": "Verify that the current page URL contains ${test-data}",
+			"description": "Verify that the current Page URL contains specified value"
+		},
+		{
+			"id": 560,
+			"grammer": "Verify that the current page title contains ${test-data}",
+			"description": "Verify that the current Page Title contains specified value"
+		},
+		{
+			"id": 567,
+			"grammer": "Select option using value ${test-data} in the list with label text  @{attribute}",
+			"description": "Select an option by value from the list with specified Label"
+		},
+		{
+			"id": 568,
+			"grammer": "Select option by text ${test-data} in the list with label text @{attribute}",
+			"description": "Select an option by displayed text from the list with specified Label"
+		},
+		{
+			"id": 569,
+			"grammer": "Select option by index ${test-data} in the list with label text @{attribute}",
+			"description": "Select an option by specified Index from the list with specified Label Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 626,
+			"grammer": "Verify that the textarea #{ui-identifier} is not editable",
+			"description": "Verify that the TextArea with given UI Identifier is not editable"
+		},
+		{
+			"id": 627,
+			"grammer": "Verify that the #{ui-identifier} button is disabled",
+			"description": "Verify that the Button with given UI Identifier is disabled"
+		},
+		{
+			"id": 628,
+			"grammer": "Verify that the text box #{ui-identifier} is not editable",
+			"description": "Verify that the TextBox with given UI Identifier is not editable"
+		},
+		{
+			"id": 629,
+			"grammer": "Verify that the radio button #{ui-identifier} is disabled",
+			"description": "Verify that the Radio Button with given UI Identifier is disabled"
+		},
+		{
+			"id": 630,
+			"grammer": "Verify that the #{ui-identifier} checkbox is disabled",
+			"description": "Verify that the CheckBox with given UI Identifier is disabled"
+		},
+		{
+			"id": 631,
+			"grammer": "Verify that the textarea #{ui-identifier} is editable",
+			"description": "Verify that the TextArea with given UI Identifier is editable"
+		},
+		{
+			"id": 632,
+			"grammer": "Verify that the #{ui-identifier} button is enabled",
+			"description": "Verify that the Button with given UI Identifier is enabled"
+		},
+		{
+			"id": 633,
+			"grammer": "Verify that the text box #{ui-identifier} is editable",
+			"description": "Verify that the TextBox with given UI Identifier is editable"
+		},
+		{
+			"id": 634,
+			"grammer": "Verify that the radio button #{ui-identifier} is enabled",
+			"description": "Verify that the Radio Button with given UI Identifier is enabled"
+		},
+		{
+			"id": 635,
+			"grammer": "Verify that the #{ui-identifier} checkbox is enabled",
+			"description": "Verify that the CheckBox with given UI Identifier is enabled"
+		},
+		{
+			"id": 636,
+			"grammer": "Check the checkbox #{ui-identifier}",
+			"description": "Select Checkbox with given UI Identifier"
+		},
+		{
+			"id": 644,
+			"grammer": "Check the checkbox with title ${test-data}",
+			"description": "Select CheckBox with specified Title"
+		},
+		{
+			"id": 659,
+			"grammer": "Select option using value ${test-data} in the list with text @{attribute}",
+			"description": "Select an option by value from the list with specified Text"
+		},
+		{
+			"id": 660,
+			"grammer": "Select option by text ${test-data} in the list with text @{attribute}",
+			"description": "Select an option by displayed text from the list with specified text"
+		},
+		{
+			"id": 661,
+			"grammer": "Update parameter ${test-data} with value of @{attribute} attribute from the element #{ui-identifier}",
+			"description": "Update value of specified stored variable with value of specified attribute from Element with given UI Identifier"
+		},
+		{
+			"id": 663,
+			"grammer": "Select option by index ${test-data} in the list with text @{attribute}",
+			"description": "Select an option by specified Index from the list with specified Text Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 669,
+			"grammer": "Switch to the window with title containing ${test-data}",
+			"description": "Switch to the window with PageTitle containing specified text"
+		},
+		{
+			"id": 951,
+			"grammer": "Select option by index ${test-data} in the list with label text containing @{attribute}",
+			"description": "Select an option by specified Index from the list with Label containing specified text Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 952,
+			"grammer": "Select option by text ${test-data} in the list with label text containing @{attribute}",
+			"description": "Select an option by displayed text from the list with Label containing specified text"
+		},
+		{
+			"id": 953,
+			"grammer": "Select option using value ${test-data} in the list with label text containing @{attribute}",
+			"description": "Select an option by value from the list with Label containing specified text"
+		},
+		{
+			"id": 954,
+			"grammer": "Select option by index ${test-data} in the list with text containing @{attribute}",
+			"description": "Select an option by specified Index from the list containing specified text Note: Index corresponds to the ordinal position of the element among the group of elements specified by the UI Identifier or Element Type. For example, if there are two elements of the specified characteristics, the element that comes first in the HTML code has index 0, the next one has index 1 and so on."
+		},
+		{
+			"id": 955,
+			"grammer": "Select option by text ${test-data} in the list with text containing @{attribute}",
+			"description": "Select an option by displayed text from the list containing specified text"
+		},
+		{
+			"id": 956,
+			"grammer": "Select option using value ${test-data} in the list with text containing @{attribute}",
+			"description": "Select an option by value from the list containing specified text"
+		},
+		{
+			"id": 957,
+			"grammer": "Click on #{ui-identifier} in the row with text ${test-data}",
+			"description": "Click the Element with given UI Identifier in the row with specified text"
+		},
+		{
+			"id": 958,
+			"grammer": "Click on #{ui-identifier} in the row with text containing ${test-data}",
+			"description": "Click the Element with given UI Identifier in the row containing specified text"
+		},
+		{
+			"id": 959,
+			"grammer": "Verify that the element #{ui-identifier} displays a value less than ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays a value less than specified value"
+		},
+		{
+			"id": 960,
+			"grammer": "Verify that the element #{ui-identifier} displays a value greater than ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays a value greater than specified value"
+		},
+		{
+			"id": 967,
+			"grammer": "Verify that the element #{ui-identifier} displays a value less than or equal to ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays a value less than or equal to specified value"
+		},
+		{
+			"id": 968,
+			"grammer": "Verify that the element #{ui-identifier} displays a value greater than or equal to ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays a value greater than or equal to specified value"
+		},
+		{
+			"id": 969,
+			"grammer": "Upload file ${test-data} using the element #{ui-identifier}",
+			"description": "Upload specified file using the Element with given UI Identifier.   For more information, please refer: https://testsigma.com/tutorials/test-cases/web-apps/automate-upload-buttons/ Note: You can give a local file path or a web URL as Test Data. Please make sure to specify an input element for upload button in the Webpage as UI Identifier i.e the UI Identifier should locate a Web Element with input tag.;"
+		},
+		{
+			"id": 970,
+			"grammer": "Verify that the element #{ui-identifier} displays text contains ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays specified text contains"
+		},
+		{
+			"id": 971,
+			"grammer": "Enter ${test-data} in the #{ui-identifier} field",
+			"description": "Enter the specified value in Element with given UI Identifier"
+		},
+		{
+			"id": 1005,
+			"grammer": "Enter ${test-data} in the field #{ui-identifier} using javascript executor",
+			"description": "Enter the specified value in Element with given UI Identifier using javascript executor"
+		},
+		{
+			"id": 1006,
+			"grammer": "Click on #{ui-identifier} to open in a new window and switch to the new window",
+			"description": "Click on a button or link that opens in a new window and then switch to the newly opened window automatically"
+		},
+		{
+			"id": 1008,
+			"grammer": "Press Enter/Return Key",
+			"description": "Press the Enter/Return key on your keyboard"
+		},
+		{
+			"id": 1009,
+			"grammer": "Press Tab Key",
+			"description": "Press the Tab key on your keyboard"
+		},
+		{
+			"id": 1010,
+			"grammer": "Press Esc Key",
+			"description": "Press the Esc key on your keyboard"
+		},
+		{
+			"id": 1011,
+			"grammer": "Press Shift+Delete Keys",
+			"description": "Press the Shift and Delete keys on your keyboard. It emulates the action of pressing the Delete button when the Shift key is pressed and releasing the Shift key once Delete key is released."
+		},
+		{
+			"id": 1012,
+			"grammer": "Press ${test-data} Keys",
+			"description": "Press the specified key on your keyboard."
+		},
+		{
+			"id": 1013,
+			"grammer": "Verify that the text ${test-data} is not displayed in the element #{ui-identifier}",
+			"description": "Verify that the specified text is not displayed in the element with given ui identifier"
+		},
+		{
+			"id": 1014,
+			"grammer": "Verify that the count of elements identified by locator #{ui-identifier} is ${test-data}",
+			"description": "Verify that the count of elements identified by given ui identifier is same as the specified data."
+		},
+		{
+			"id": 1015,
+			"grammer": "Verify that the count of elements identified by locator #{ui-identifier} is greater than or equal to ${test-data}",
+			"description": "Verify that the count of elements identified by given ui identifier is greater than or equal to specified data."
+		},
+		{
+			"id": 1016,
+			"grammer": "Verify that the count of elements identified by locator #{ui-identifier} is less than or equal to ${test-data}",
+			"description": "Verify that the count of elements identified by given ui identifier is less than or equal to specified Data"
+		},
+		{
+			"id": 1017,
+			"grammer": "Take screenshot with URL",
+			"description": "Take screenshot with URL"
+		},
+		{
+			"id": 1018,
+			"grammer": "Open a new tab",
+			"description": "Open a new tab in the Browser"
+		},
+		{
+			"id": 1019,
+			"grammer": "Take full page screenshot with URL",
+			"description": "Take full-length screenshot of the current page with URL on top left corner"
+		},
+		{
+			"id": 1020,
+			"grammer": "Verify that the browser is ${test-data}",
+			"description": "Verifies that the current browser where the tests are executed is the specified one. Valid options for test data are - 'chrome', 'firefox', 'internet explorer', 'msedge', and 'safari' (without quotes)"
+		},
+		{
+			"id": 1021,
+			"grammer": "Verify that the browser version is ${test-data}",
+			"description": "Verifies that the browser version in which the tests are executed is the specified one.  Valid options for test data are complete Browser Version numbers. Please check the About page of your browser to get the correct version. NOTE: We should enter complete version number in test data like '70.0.3538.110', '60.3', '11', '42.17134.1.0', '10.0.1' (without quotes)"
+		},
+		{
+			"id": 1022,
+			"grammer": "Select the radio button #{ui-identifier}",
+			"description": "Click Radio Button with given UI Identifier"
+		},
+		{
+			"id": 1023,
+			"grammer": "Click on #{ui-identifier} using javascript executor",
+			"description": "Click the Element with given UI Identifier using javascript executor"
+		},
+		{
+			"id": 1024,
+			"grammer": "Clear the text displayed in the #{ui-identifier} field using javascript executor",
+			"description": "Clear the specified value in Element with given UI Identifier using javascript executor"
+		},
+		{
+			"id": 1025,
+			"grammer": "Close all windows except the current window",
+			"description": "Close the all windows of the Browser except current window"
+		},
+		{
+			"id": 1027,
+			"grammer": "Delete all local storage cookies from the current session",
+			"description": "Delete all local storage cookies from the current browser session"
+		},
+		{
+			"id": 1028,
+			"grammer": "Select multiple options using value ${test-data} in the #{ui-identifier} list",
+			"description": "Select multiple options by value from the list with given UI Identifier"
+		},
+		{
+			"id": 1029,
+			"grammer": "Select multiple options by text ${test-data} in the #{ui-identifier} list",
+			"description": "Select multiple options by text from the list with given UI Identifier"
+		},
+		{
+			"id": 1030,
+			"grammer": "Select multiple options by index ${test-data} in the #{ui-identifier} list",
+			"description": "Select multiple options by index from the list with given UI Identifier"
+		},
+		{
+			"id": 1031,
+			"grammer": "Verify that the element #{ui-identifier} displays value not equal to ${test-data}",
+			"description": "Verify that the Element with given UI Identifier displays a value not equal to specified value"
+		},
+		{
+			"id": 1032,
+			"grammer": "Verify that the current page does not displays text ${test-data}",
+			"description": "Verify that the current Page not displays specified text"
+		},
+		{
+			"id": 1033,
+			"grammer": "Select option with label containing ${test-data} in the button group #{ui-identifier}",
+			"description": "Select an option with containing specified label text from group with given UI Identifier."
+		},
+		{
+			"id": 1034,
+			"grammer": "Select option with index ${test-data} in the button group #{ui-identifier}",
+			"description": "Select an option with index value from group with given UI Identifier."
+		},
+		{
+			"id": 1035,
+			"grammer": "Select option with text containing ${test-data} in the button group #{ui-identifier}",
+			"description": "Select an option with containing specified text from group with given UI Identifier."
+		},
+		{
+			"id": 1036,
+			"grammer": "Select option with text ${test-data} in the button group #{ui-identifier}",
+			"description": "Select an option with specified text from group with given UI Identifier."
+		},
+		{
+			"id": 1037,
+			"grammer": "Select option with label ${test-data} in the button group #{ui-identifier}",
+			"description": "Select an option with specified label text from group with given UI Identifier."
+		},
+		{
+			"id": 1038,
+			"grammer": "Click on #{ui-identifier} with text ${test-data}",
+			"description": "Clicks the Element with the given UI Identifier that has the specified text"
+		},
+		{
+			"id": 1039,
+			"grammer": "Click on #{ui-identifier} with text containing ${test-data}",
+			"description": "Clicks the Element with the given UI Identifier that contains the specified text"
+		},
+		{
+			"id": 1044,
+			"grammer": "Navigate to ${test-data}",
+			"description": "Navigate to a WebPage URL(local or www). If the Application Under Test(AUT) is a web URL, prefix the URL with protocol such as http:// or https://. If AUT is locally hosted, prefix with the protocol and also make sure you use Hybrid Execution."
+		},
+		{
+			"id": 1045,
+			"grammer": "Verify that the element #{ui-identifier} has non-empty text",
+			"description": "Verify that the Element with given UI Identifier has a non-empty text"
+		},
+		{
+			"id": 1046,
+			"grammer": "Verify that the element #{ui-identifier} has non-empty innertext",
+			"description": "Verify that the Element with given UI Identifier has a non-empty innnerText"
+		},
+		{
+			"id": 1047,
+			"grammer": "Verify that the element #{ui-identifier} contains ${test-data} for value attribute",
+			"description": "Verify that the given UI Identifier field displays contains Value "
+		},
+		{
+			"id": 1048,
+			"grammer": "Verify that the element #{ui-identifier} contains value ${test-data} for @{attribute}",
+			"description": "Verify that the given element contains test data as value for attribute"
+		},
+		{
+			"id": 1049,
+			"grammer": "Select option using value contains ${test-data} in the #{ui-identifier} list",
+			"description": "Select option using value contains testdata in the uiidenitfier list"
+		},
+		{
+			"id": 1050,
+			"grammer": "Select option contains text ${test-data} in the #{ui-identifier} list",
+			"description": "Select option contains text testdata in the uiidentifer list"
+		},
+		{
+			"id": 1054,
+			"grammer": "Verify that the option #{ui-identifier} in the dropdown is not present ${test-data}",
+			"description": "Verify that the option ui identifier in the dropdown is not present testdata"
+		},
+		{
+			"id": 1055,
+			"grammer": "Verify that the #{ui-identifier} button is clickable",
+			"description": "Verify that the Ui identifier button is clickable"
+		},
+		{
+			"id": 1056,
+			"grammer": "Submit form using element #{ui-identifier}",
+			"description": "Submit form using element UI Identifier"
+		},
+		{
+			"id": 1057,
+			"grammer": "Submit form using element #{ui-identifier} to open a new window and switch to the new window",
+			"description": "Submits a form which opens a new tab/window and switch the context to the newly opened tab/window"
+		},
+		{
+			"id": 1060,
+			"grammer": "Click on coordinates ${test-data} (% of width , % of height from element top left) inside element #{ui-identifier}",
+			"description": "Click on coordinates testdata (% of width , % of height from element top left) inside element ui identifier"
+		},
+		{
+			"id": 1061,
+			"grammer": "Get all available cookies",
+			"description": "Get all available cookies"
+		},
+		{
+			"id": 1062,
+			"grammer": "Get all available cookie names",
+			"description": "Get all available cookie names"
+		},
+		{
+			"id": 1063,
+			"grammer": "Get value of cookie named ${test-data}",
+			"description": "Get value of cookie named testdata"
+		},
+		{
+			"id": 1064,
+			"grammer": "Store all cookies in variable ${test-data}",
+			"description": "Store all cookies in variable testdata"
+		},
+		{
+			"id": 1065,
+			"grammer": "Store cookie named ${test-data} in variable @{attribute}",
+			"description": "Store cookie named testdata in variable @{attribute}"
+		},
+		{
+			"id": 1066,
+			"grammer": "Store value of cookie named ${test-data} in variable @{attribute}",
+			"description": "Store value of cookie named testdata in variable @{attribute}"
+		},
+		{
+			"id": 1067,
+			"grammer": "Verify that the options with text ${test-data} is present in the select list #{ui-identifier}",
+			"description": "Verify that the option with specified text is present in the select list given UI Identifier field"
+		},
+		{
+			"id": 1068,
+			"grammer": "Break loop",
+			"description": "Break loop"
+		},
+		{
+			"id": 1069,
+			"grammer": "Continue loop",
+			"description": "Continue loop"
+		},
+		{
+			"id": 1070,
+			"grammer": "Execute javascript ${test-data}",
+			"description": "Executes given JavaScript in current browser session."
+		},
+		{
+			"id": 1071,
+			"grammer": "Execute javascript ${test-data} and verify if output contains @{attribute}",
+			"description": "Execute JavaScript and verify the return value"
+		},
+		{
+			"id": 1072,
+			"grammer": "Execute javascript ${test-data} on element #{ui-identifier}",
+			"description": "Execute given JavaScript on element"
+		},
+		{
+			"id": 1073,
+			"grammer": "Execute javascript ${test-data} on element #{ui-identifier} and verify output contains @{attribute}",
+			"description": "Execute JavaScript on element and verify the return value"
+		},
+		{
+			"id": 1074,
+			"grammer": "Long Press on the element #{ui-identifier} for ${test-data}seconds",
+			"description": "Long Press on the element for specific seconds"
+		},
+		{
+			"id": 1075,
+			"grammer": "Enter OTP from ${test-data} in the #{ui-identifier} field",
+			"description": "enter OTP"
+		},
+		{
+			"id": 1076,
+			"grammer": "Verify Mailbox message subject ${test-data}",
+			"description": "verifyMailboxMessageSubject"
+		},
+		{
+			"id": 1077,
+			"grammer": "Verify Mailbox message content ${test-data}",
+			"description": "verifyMailboxMessageContent"
+		},
+		{
+			"id": 1079,
+			"grammer": "Verify that the element #{ui-identifier} is ${test-data}",
+			"description": "Verify that the element is present/enabled/checked/displayed"
+		},
+		{
+			"id": 1081,
+			"grammer": "Scroll ${test-data} the element #{ui-identifier} into view",
+			"description": "Scroll up to/down to/to the element  into view"
+		},
+		{
+			"id": 1082,
+			"grammer": "Scroll inside an element #{ui-identifier} to ${test-data}",
+			"description": "Scroll inside an element to top/bottom"
+		},
+		{
+			"id": 1083,
+			"grammer": "Click on the ${test-data} button in the browser",
+			"description": "Click on the Back/Forward/Refresh button in the browser"
+		},
+		{
+			"id": 1084,
+			"grammer": "While element  #{ui-identifier} is ${test-data} on the page",
+			"description": "While element is visible/not visible on the page"
+		},
+		{
+			"id": 1085,
+			"grammer": "While element #{ui-identifier} is ${test-data}",
+			"description": "While element is enabled/disabled on the page"
+		},
+		{
+			"id": 1086,
+			"grammer": "Element #{ui-identifier} is ${test-data}",
+			"description": "element ui identifier is enabled/disabled"
+		},
+		{
+			"id": 1087,
+			"grammer": "Current web page is completely ${test-data}",
+			"description": "current web page is completely loaded / not loaded"
+		},
+		{
+			"id": 1088,
+			"grammer": "Current URL is ${test-data}",
+			"description": "current URL is test data"
+		},
+		{
+			"id": 1089,
+			"grammer": "Checkbox #{ui-identifier} is  ${test-data}",
+			"description": "checkbox ui identifier is checked/unchecked"
+		},
+		{
+			"id": 1090,
+			"grammer": "Radio button #{ui-identifier} is  ${test-data}",
+			"description": "radio button ui identifier is selected/not selected"
+		},
+		{
+			"id": 1091,
+			"grammer": "Element #{ui-identifier} is empty",
+			"description": "element ui identifier is empty"
+		},
+		{
+			"id": 1092,
+			"grammer": "Element #{ui-identifier} has ${test-data}",
+			"description": "element ui identifier has text testdata"
+		},
+		{
+			"id": 1093,
+			"grammer": "Element #{ui-identifier} has attribute @{attribute} values as ${test-data}",
+			"description": "element ui identifier has attribute attribute value as testdata"
+		},
+		{
+			"id": 1094,
+			"grammer": "Alert is ${test-data}",
+			"description": "alert is visible/not visible"
+		},
+		{
+			"id": 1095,
+			"grammer": "Store current  ${test-data} value into runtime variable  @{attribute}",
+			"description": "Store current test-data into a runtime variable"
+		},
+		{
+			"id": 1096,
+			"grammer": "Verify if  ${test-data1} ${test-data2} ${test-data3}",
+			"description": "Verify if test-data1 ==/>/>=/lessthan/<=/contains/!= test-data2"
+		},
+		{
+			"id": 1097,
+			"grammer": "Verify if ${test-data1} ${test-data2} ${test-data3}",
+			"description": "Verify if test-data1    == / > />= / lessthan / <= / contains / !=     test-data2 "
+		},
+		{
+			"id": 1098,
+			"grammer": "Loop over data set in ${test-data-profile} where set name ${operator} ${right-data}",
+			"description": "Loop over Data set in Login Data List where set name contains qateam"
+		},
+		{
+			"id": 1099,
+			"grammer": "Loop over data set in ${test-data-profile} from index ${left-data} to index ${right-data}",
+			"description": "Loop over data set in Add_User_Data_List from index start to index end"
+		},
+		{
+			"id": 1100,
+			"grammer": "Loop over data set in ${test-data-profile} from index start to index end",
+			"description": "Loop over data set in Add_User_Data_List from index start to index end"
+		},
+		{
+			"id": 1101,
+			"grammer": "Loop over data set in ${test-data-profile} when ${left-data} value ${operator} ${right-data}",
+			"description": "Loop over data set in User_list when role value Equals admin"
+		},
+		{
+			"id": 1102,
+			"grammer": "Loop over data set ${test-data-profile} when ${left-data} value ${operator}",
+			"description": "Loop over data set in User_list when role value isEmpty"
+		},
+		{
+			"id": 1103,
+			"grammer": "Loop over data set ${test-data-profile} from Set Name ${left-data} to ${right-data}",
+			"description": "Loop over data set User_list from Set Name role to authorization"
+		},
+		{
+			"id": 1108,
+			"grammer": "Enter ${test-data} in the field #{ui-identifier} using key board actions",
+			"description": "Enter the specified value in Element with given UI Identifier using key board actions"
+		},
+		{
+			"id": 1109,
+			"grammer": "Select value ${test-data1} in the cell of table #{ui-identifier} where the row number is ${test-data2} and column number is ${test-data3}",
+			"description": "Selects the given value from the dropdown in the specified cell in the given table. Cell will be specified using it''s row and column numbers(starts from 1)."
+		},
+		{
+			"id": 1110,
+			"grammer": "MouseOver on cell in the table element #{ui-identifier} where row number is ${test-data1} and column number is ${test-data2}",
+			"description": "MouseOver on the specified cell in the given table. Cell will be specified using it''s row and column numbers(starts from 1)."
+		},
+		{
+			"id": 1111,
+			"grammer": "Store the row number in the table #{ui-identifier} which contains the text ${test-data} in column ${test-data1} into the variable ${test-data2}",
+			"description": "Stores the row number in the given table which contains the given text in given column into a given runtime variable. Column will be specified using it''s number(starts from 1)."
+		},
+		{
+			"id": 1112,
+			"grammer": "Store the row number in the table #{ui-identifier} which contains the text ${test-data1} in ANY column into the variable ${test-data2}",
+			"description": "Stores the row number in the given table which contains the given text in ANY column into a given runtime variable."
+		},
+		{
+			"id": 1113,
+			"grammer": "Store the ALL row numbers in the table #{ui-identifier} which contains the text ${test-data1} in ANY column into the variable ${test-data2}",
+			"description": "Stores ALL the row numbers in the given table which contains the given text in ANY column into a given runtime variable as a string seperated by comma(,)"
+		},
+		{
+			"id": 1114,
+			"grammer": "Store the column number in the table #{ui-identifier} which contains the text ${test-data1} in ANY row into the variable ${test-data2}",
+			"description": "Stores the column number in the given table which contains the given text in ANY row into a given runtime variable"
+		},
+		{
+			"id": 1115,
+			"grammer": "Store the ALL column numbers in the table #{ui-identifier} which contains the text ${test-data1} in ANY row into the variable ${test-data2}",
+			"description": "Stores ALL the column numbers in the given table which contains the given text in ANY row into a given runtime variable as a string seperated by comma(,)"
+		},
+		{
+			"id": 1116,
+			"grammer": "Store the column header name in the table #{ui-identifier} where the row contains text ${test-data1} into the variable ${test-data2}",
+			"description": "Stores the column header name in the given table where the row contains given text into a given runtime variable"
+		},
+		{
+			"id": 1117,
+			"grammer": "Click on cell in the table element #{ui-identifier} where row number is ${test-data1} and column number is ${test-data2}",
+			"description": "Clicks specified cell in the given table. Cell will be specified using it''s row and column numbers(starts from 1)."
+		},
+		{
+			"id": 1118,
+			"grammer": "Click on cell in the table element #{ui-identifier} where row number is ${test-data1} and column number is ${test-data2} using JavaScript",
+			"description": "Clicks specified cell in the given table using JavaScript. Cell will be specified using it''s row and column numbers(starts from 1)."
+		},
+		{
+			"id": 1119,
+			"grammer": "Click on row in the table element #{ui-identifier} where row number is ${test-data}",
+			"description": "Clicks specified row in the given table. Row will be specified using it''s number(starts from 1)."
+		},
+		{
+			"id": 1120,
+			"grammer": "Click on row in the table element #{ui-identifier} where row number is ${test-data} using JavaScript",
+			"description": "Clicks specified row in the given table using JavaScript. Row will be specified using it''s number(starts from 1)."
+		},
+		{
+			"id": 1121,
+			"grammer": "Enter data ${test-data1} in the cell of table #{ui-identifier} where the row number is ${test-data2} and column number is ${test-data3}",
+			"description": "Enters the given value in the specified cell in the given table. Cell will be specified using it''s row and column numbers(starts from 1)."
+		},
+		{
+			"id": 1122,
+			"grammer": "Verify element #{to-ui-identifier} is present inside a web table #{from-ui-identifier}",
+			"description": "Verifies if given element is present in given table or not"
+		},
+		{
+			"id": 1123,
+			"grammer": "Verify that the number of columns present in the table element #{ui-identifier} is ${test-data1} where row number is ${test-data2}",
+			"description": "Verifies if number of columns of specified row in given table is given expected value or not"
+		},
+		{
+			"id": 1124,
+			"grammer": "Verify that the number of rows in the table element #{ui-identifier} is ${test-data}",
+			"description": "Verifies if number of rows in given table is given expected value or not.(Including header row)"
+		},
+		{
+			"id": 1125,
+			"grammer": "Verify that the text ${test-data} is present in the table element #{ui-identifier}",
+			"description": "Verifies if given text is present in given table or not"
+		},
+		{
+			"id": 1126,
+			"grammer": "Click on image ${test-data}",
+			"description": "Clicks on the given image in the current page screen"
+		},
+		{
+			"id": 1127,
+			"grammer": "Click on image ${test-data1} on the UI that matches up to the ${test-data2} percentage",
+			"description": "Clicks on the given image on the UI that matches upto the percentage value in the current page screen"
+		},
+		{
+			"id": 1128,
+			"grammer": "Click on image ${test-data1}, occurrence position ${test-data2}",
+			"description": "Clicks on the given image at the given occurrence number in the current page screen"
+		},
+		{
+			"id": 1129,
+			"grammer": "Click on image ${test-data1} on the UI that matches up to the ${test-data2} percentage, occurrence position ${test-data3}",
+			"description": "Clicks on the given image on the UI that matches upto the percentage value at the occurrence number in the current page screen"
+		},
+		{
+			"id": 1130,
+			"grammer": "Click on text ${test-data}",
+			"description": "Clicks on the given text in the current page screen"
+		},
+		{
+			"id": 1131,
+			"grammer": "Click on text ${test-data1}, occurrence position ${test-data2}",
+			"description": "Clicks on the given text at given occurrence number in the current page screen"
+		},
+		{
+			"id": 1132,
+			"grammer": "Verify if image ${test-data} present in current-page",
+			"description": "Verifies that the given image is present in the current screen."
+		},
+		{
+			"id": 1133,
+			"grammer": "Verify if image ${test-data1} is present on the current page that matches up to the ${test-data2} percentage",
+			"description": "Verifies that the given image on the UI that matches upto the percentage value, is present in the current screen."
+		},
+		{
+			"id": 1134,
+			"grammer": "Verify if image ${test-data1} is present on the current page that matches up to the ${test-data2} percentage and scale as ${test-data3}",
+			"description": "Verifies that the given image on the UI that matches upto the percentage value and with given scale, is present in the current screen."
+		},
+		{
+			"id": 1135,
+			"grammer": "Verify if image ${test-data} present in current-page",
+			"description": "Verifies that the given image is present in the current screen."
+		},
+		{
+			"id": 1136,
+			"grammer": "Verify if image ${test-data1} is present on the current page that matches up to the ${test-data2} percentage",
+			"description": "Verifies that the given image on the UI that matches upto the percentage value, is present in the current screen."
+		},
+		{
+			"id": 1137,
+			"grammer": "Verify if image ${test-data1} is present on the current page that matches up to the ${test-data2} percentage and scale as ${test-data3}",
+			"description": "Verifies that the given image on the UI that matches upto the percentage value and with given scale, is present in the current screen."
+		},
+		{
+			"id": 1144,
+			"grammer": "Fire Click event on element #{ui-identifier} and Upload file ${test-data}",
+			"description": "Clicks on the specified UI element to trigger the addition of a new input tag of type \"file\" to the DOM. Then, upload a specified file (using either a local file path or a web URL) to the recently added file input element. Note: You can provide either a local file path or a web URL as test data. This nlp will trigger a click event on the given element and upload the file to the dynamically added input tag in the DOM."
+		},
+		{
+			"id": 9117,
+			"grammer": "Verify that the #{ui-identifier} button is clickable",
+			"description": "Verify that the ui identifier button is clickable"
+		},
+		{
+			"id": 9119,
+			"grammer": "Verify that the current page does not displays text ${test-data}",
+			"description": "Verify that the current page does not displays text testdata"
+		},
+		{
+			"id": 9120,
+			"grammer": "Verify that the current page displays text ${test-data}",
+			"description": "Verify that the current page displays text testdata"
+		},
+		{
+			"id": 9121,
+			"grammer": "Verify that the current page title contains ${test-data}",
+			"description": "Verify that the current page title contains testdata"
+		},
+		{
+			"id": 9126,
+			"grammer": "Verify that the Alert is not present",
+			"description": "Verify that the Alert is not present"
+		},
+		{
+			"id": 30161,
+			"grammer": "Store ${test-data1} in ${test-data2}",
+			"description": "Store test-data1 in test-data2"
+		},
+		{
+			"id": 40013,
+			"grammer": "Press ${test-data1} + ${test-data2} Keys",
+			"description": "Press test-data1 + test-data2 Keys"
+		},
+		{
+			"id": 40014,
+			"grammer": "Take Screenshot and store to clipboard",
+			"description": "Take Screenshot and store to clipboard"
+		},
+		{
+			"id": 40021,
+			"grammer": "Scroll the window to ${test-data} offset ${test-data1}",
+			"description": "Scroll the window to the given offset"
+		},
+		{
+			"id": 40022,
+			"grammer": "Scroll the element #{ui-identifier} to ${test-data} offset ${test-data1}",
+			"description": "Scroll inside an element to the given offset"
+		},
+		{
+			"id": 40023,
+			"grammer": "Move an element #{ui-identifier} by  x: ${test-data1} y: ${test-data2} offsets",
+			"description": "Move an element to the given offset."
+		},
+		{
+			"id": 40070,
+			"grammer": "Drag the element #{from-ui-identifier} and drop on the element #{to-ui-identifier} using Javascript Executor",
+			"description": "Drag from first Element with UI Identifier and drop onto second Element with UI Identifier"
+		},
+		{
+			"id": 61121,
+			"grammer": "Verify if  ${test-data1} ${test-data2} ${test-data3}",
+			"description": "Verify if test-data1    == / > />= / lessthan / <= / contains / !=     test-data2"
+		},
+		{
+			"id": 61464,
+			"grammer": "Take full page screenshot using JS",
+			"description": "Take full-length screenshot of the current page with URL on top left corner"
+		}
+	]
+}
